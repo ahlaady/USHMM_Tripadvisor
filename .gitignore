@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Conda / virtual environments
+.env
+.venv
+env/
+venv/
+
+# HuggingFace model cache (large, auto-downloads on first run)
+~/.cache/huggingface/
+.cache/
+
+# Sentence transformer cache
+~/.cache/torch/
+sentence_transformers/
+
+# Ollama (used in 02d — local setup required, not included)
+# See README for Ollama setup instructions
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Large intermediate files (outputs are in Data/Processed/)
+*.checkpoint.csv
+ushmm_nli_raw_scores.csv
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+misc/
